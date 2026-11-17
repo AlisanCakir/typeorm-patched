@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * typeorm 0.3.20 -> 0.3.99 (etechlog vendored) güvenlik yamaları.
+ * typeorm 0.3.20 -> 0.3.99 vendored güvenlik yamaları.
  *
- * Kullanım: node apply-typeorm-fixes.js /path/to/typeorm-etechlog
+ * Kullanım: node apply-typeorm-fixes.js /path/to/package
  *
  * Her değişiklik, hedef metnin dosyada TAM OLARAK beklenen sayıda geçmesini
  * şart koşar. Geçmezse script hata verip hiçbir şey yazmadan çıkar.

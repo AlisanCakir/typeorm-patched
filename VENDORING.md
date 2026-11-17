@@ -1,14 +1,14 @@
-# typeorm 0.3.99 — EtechLog vendored build
+# typeorm 0.3.99 — vendored security backport
 
 Bu repo **upstream typeorm değildir.** `typeorm@0.3.20`'nin npm'de yayınlanmış
 derlenmiş paketinin, üç güvenlik açığı elle kapatılmış bir kopyasıdır.
 
 ## Neden
 
-EtechLog mobil uygulaması typeorm 0.3.20 kullanıyor. 0.3.26+ sürümlerine
-yükseltmek React Native Windows tarafında beyaz ekran hatasına yol açtığı için
-yükseltme yapılamadı. Bunun yerine güvenlik düzeltmeleri bu sürüme geri
-taşındı.
+Bu paketi kullanan React Native uygulaması typeorm 0.3.20'de takılı. 0.3.26+
+sürümlerine yükseltmek React Native Windows tarafında beyaz ekran hatasına yol
+açtığı için yükseltme yapılamadı. Bunun yerine güvenlik düzeltmeleri bu sürüme
+geri taşındı.
 
 ## Upstream'den farklar
 
